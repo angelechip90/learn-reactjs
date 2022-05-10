@@ -30,6 +30,7 @@ function TodoList({ todoList, onTodoClick }) {
                     onClick={() => handleTodoClick(todo, idx)}
                 >
                     {todo.title}</li>
+
                 // <li key={todo.id}
                 //     className={classname({
                 //         'todo-item': true,
