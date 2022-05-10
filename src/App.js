@@ -8,9 +8,10 @@ import TodoFeature from './features/Todo';
 function App() {
   return (
     <div className="App">
-      {/* <AlbumFeature /> */}
-      <ColorBox />
-      <Counter />
+      {/*<AlbumFeature />
+       <ColorBox />
+      <Counter /> */}
+      <TodoFeature />
     </div>
   );
 }
